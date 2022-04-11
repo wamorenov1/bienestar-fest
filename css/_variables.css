@@ -1,0 +1,28 @@
+:root {
+    /* Primary Colors */
+    --black: #000000;
+    --white: #FFFFFF;
+    --gray: #ABABAB;
+    --gray100: #EAEAEA;
+
+    /* Colors */
+    --purple: #572960;
+    --blue: #00ACB9;
+    --orange: #F3773F;
+    --fucsia: #ED1578;
+    --fucsiadeg: linear-gradient(90deg, rgba(243,119,63,1) 0%, rgba(237,21,120,1) 100%);
+
+    /* Typography */
+    --font-family: 'Sarabun', sans-serif;
+    --light: 300
+    --medium: 500
+    --bold: 700
+
+    /* Headers Sizing */
+    --hero: 3.05rem;
+    --h1: 2.45rem;
+    --h2: 1.95rem;
+    --h3: 1.5rem;
+    --h4: 1rem;
+    --text: 1rem;
+}
