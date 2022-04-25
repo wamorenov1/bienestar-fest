@@ -49,12 +49,15 @@ body {
     color: var(--purple);
 }
 
-.countdown__bfest {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 2rem;
+@media(min-width: 992px){
+    .countdown__bfest {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 2rem;
+    }
 }
+
 
 .days-container, .hours-container, .minutes-container, .seconds-container {
     /* border: 1px solid red; */

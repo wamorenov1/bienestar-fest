@@ -61,7 +61,7 @@ $('.carrusel-icons').slick({
     dots: false,
     infinite: false,
     speed: 300,
-    arrows:true,
+    arrows:false,
     slidesToShow: 8,
     autoplay:true,
     infinite:true,
