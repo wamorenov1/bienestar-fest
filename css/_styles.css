@@ -80,4 +80,8 @@ body {
     padding: 3rem 0rem;
 }
 
+.slick-track img{
+    padding: 1em;
+    border-radius: 50%;
+} 
 
