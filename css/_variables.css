@@ -10,7 +10,7 @@
     --blue: #00ACB9;
     --orange: #F3773F;
     --fucsia: #ED1578;
-    --fucsiadeg: linear-gradient(90deg, rgba(243,119,63,1) 0%, rgba(237,21,120,1) 100%);
+    --fucsiadeg: linear-gradient(90deg, rgba(237,21,120,1) 0%, rgba(243,119,63,1) 100% );
 
     /* Typography */
     --font-family: 'Sarabun', sans-serif;

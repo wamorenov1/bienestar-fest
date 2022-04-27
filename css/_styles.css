@@ -106,6 +106,25 @@ body {
     text-align: center;
 }
 
+.sonrisa-fest{
+    width: 50px;
+    padding-right: 1em;
+}
+.title-fest{
+    color: var(--purple);
+    margin-bottom: 0;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: bold;
+}
+.title-fest .txt-orange{
+    color: var(--orange);
+}
+.title-fest .txt-gradient{
+    background: var(--fucsiadeg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
 .carrusel-icons {
     padding: 3rem 10rem;
 }
@@ -128,4 +147,15 @@ body {
     display: flex;
     justify-content: center;
     padding: 3rem 0rem;
+}
+@media(min-width:992px){
+    .sonrisa-fest{
+        margin-left: 25px;
+    }
+}
+@media(max-width:425px){
+    .sonrisa-fest{
+        margin-left: 21px;
+        width: 40px;
+    }
 }
