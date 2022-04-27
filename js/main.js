@@ -1,94 +1,83 @@
-const countDownClock = (number = 100, format = 'seconds') => {
-    const d = document;
-    const daysElement = d.querySelector('.days');
-    const hoursElement = d.querySelector('.hours');
-    const minutesElement = d.querySelector('.minutes');
-    const secondsElement = d.querySelector('.seconds');
-    let countdown;
-    convertFormat(format);
+//
+// Set the date we're counting down to
+var countDownDate = new Date("May 15, 2022 21:30:00").getTime();
 
+// Update the count down every 1 second
+var x = setInterval(function () {
 
-    function convertFormat(format) {
-        switch (format) {
-            case 'seconds':
-                return timer(number);
-            case 'minutes':
-                return timer(number * 60);
-            case 'hours':
-                return timer(number * 60 * 60);
-            case 'days':
-                return timer(number * 60 * 60 * 24);
-        }
-    }
+  // Get today's date and time
+  var now = new Date().getTime();
 
-    function timer(seconds) {
-        const now = Date.now();
-        const then = now + seconds * 1000;
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
 
-        countdown = setInterval(() => {
-            const secondsLeft = Math.round((then - Date.now()) / 1000);
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            if (secondsLeft <= 0) {
-                clearInterval(countdown);
-                return;
-            };
+  // Output the result in an element with id="demo"
+  document.getElementById("countdown").innerHTML = 
+  `
+  <div class="countdown__label">
+    <span>${days}</span>
+    <p>Días</p>
+  </div>
+  <div class="countdown__label">
+    <span>${hours}</span>
+    <p>Horas</p>
+  </div>
+  <div class="countdown__label">
+    <span>${minutes}<span>
+    <p>Minutos</p>
+  </div>
+  <div class="countdown__label">
+    <span>${seconds}</span>
+    <p>Segundos</p>
+  </div>
+  `;
 
-            displayTimeLeft(secondsLeft);
-
-        }, 1000);
-    }
-
-    function displayTimeLeft(seconds) {
-        daysElement.textContent = Math.floor(seconds / 86400);
-        hoursElement.textContent = Math.floor((seconds % 86400) / 3600);
-        minutesElement.textContent = Math.floor((seconds % 86400) % 3600 / 60);
-        secondsElement.textContent = seconds % 60 < 10 ? `0${seconds % 60}` : seconds % 60;
-    }
-}
-
-
-/*
-  start countdown
-  enter number and format
-  days, hours, minutes or seconds
-*/
-countDownClock(26, 'days');
-
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
 
 /* Carrusel negocios */
 
 $('.carrusel-icons').slick({
-    dots: false,
-    infinite: false,
-    speed: 300,
-    arrows:false,
-    slidesToShow: 8,
-    autoplay:true,
-    infinite:true,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
+  dots: false,
+  infinite: false,
+  speed: 300,
+  arrows: false,
+  slidesToShow: 8,
+  autoplay: true,
+  infinite: true,
+  slidesToScroll: 1,
+  responsive: [{
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
       }
-    ]
-  });
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});

@@ -1,3 +1,6 @@
+/* @media (max-width: 600px) {
+
+
 body {
     background-color: var(--gray100);
     font-family: var(--font-family);
@@ -38,7 +41,6 @@ body {
     font-size: 1.5rem;
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
     gap: 2rem;
     margin: 0;
 }
@@ -128,4 +130,4 @@ body {
     display: flex;
     justify-content: center;
     padding: 3rem 0rem;
-}
+} */

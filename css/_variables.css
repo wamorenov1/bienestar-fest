@@ -14,9 +14,10 @@
 
     /* Typography */
     --font-family: 'Sarabun', sans-serif;
-    --light: 300
-    --medium: 500
-    --bold: 700
+    --light: 300;
+    --medium: 500;
+    --bold: 700;
+    --black: 800;
 
     /* Headers Sizing */
     --hero: 3.05rem;
