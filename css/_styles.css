@@ -6,7 +6,31 @@ body {
     background-position: center;
     background-size: cover;
 }
-
+.btn-pri-fest{
+    color: white;
+    background-color: transparent;
+    font-weight: 800;
+    border: 1px solid white;
+}
+.proms .card{
+    background-color: transparent;
+    border: 0px;
+    padding: 1em;
+}
+.proms .card .card-body{
+    background-color: var(--purple);
+    border-radius: 0px 0px 10px 10px;
+}
+.proms .card .card-body h3{
+    color: white;
+font-size: 1.55rem;
+}
+.proms .card .card-body p{
+    color: white;
+}
+.proms .card .card-img-top{
+    border-radius: 10px 10px 0px 0px;
+}
 .carrusel-proms .card{
 background-color: transparent;
 border: none;
@@ -64,6 +88,14 @@ border: none;
 }
 
 .body__copy__bfest h2 {
+    font-family: var(--font-family);
+    font-weight: var(--bold);
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--purple);
+}
+
+.cont-proms h2 {
     font-family: var(--font-family);
     font-weight: var(--bold);
     font-size: 2.5rem;
