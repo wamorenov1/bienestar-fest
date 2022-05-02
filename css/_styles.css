@@ -1,7 +1,7 @@
 body {
     background-color: var(--gray100);
     font-family: var(--font-family);
-    background-image: url(../images/detalles.png);
+    background-image: url(../images/detalles1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -15,16 +15,24 @@ body {
     border-radius: 0px 0px 10px 10px;
     font-size: 1.5rem;
     padding: 1em 0em;
+    position: relative;
+    bottom: 0;
+}
+
+.btn-pri-fest:hover {
+    background-color: var(--blue);
+    color: var(--white);
 }
 
 .bioseg {
     background-color: var(--purple);
 }
 
+
 .proms .card {
     background-color: transparent;
     border: 0px;
-    padding: 1em;
+    padding: 2rem;
 }
 
 .proms .card .card-body {
@@ -34,12 +42,19 @@ body {
 }
 
 .proms .card .card-body h3 {
+    padding: .5rem;
     color: white;
-    font-size: 1.55rem;
+    font-size: 1.8rem;
+    font-family: var(--font-family);
+    font-weight: var(--bold);
 }
 
 .proms .card .card-body p {
     color: white;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-family: var(--font-family);
 }
 
 .proms .card .card-img-top {
@@ -61,7 +76,11 @@ body {
     border-radius: 50%;
     background: rgb(243, 119, 63);
     background: linear-gradient(90deg, rgba(243, 119, 63, 1) 0%, rgba(237, 21, 120, 1) 100%);
-    padding: 3rem;
+    padding: 0rem;
+}
+
+.chatbot__button a img {
+    width: 7.5rem;
 }
 
 .nav__bfest {
@@ -116,6 +135,7 @@ body {
     font-size: 2.5rem;
     text-align: center;
     color: var(--purple);
+    margin-bottom: 6rem;
 }
 
 .body__copy__bfest p {
@@ -137,7 +157,7 @@ body {
 }
 
 .countdown__label {
-    font-size: 8rem;
+    font-size: 9rem;
     font-weight: var(--bold);
     color: var(--purple);
     text-align: center;
@@ -147,7 +167,7 @@ body {
     color: var(--purple);
     font-family: var(--font-family);
     font-weight: var(--light);
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .slick-initialized .slick-slide {
@@ -186,11 +206,11 @@ body {
 
 .cont-neg h2 {
     color: var(--purple);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .cont-neg img {
-    width: 100px;
+    width: 120px;
 }
 
 .number__box span {
@@ -212,6 +232,44 @@ body {
     text-align: center;
     text-align: -webkit-center;
     text-align-last: center;
+}
+
+.title-bioseg {
+    font-size: 4rem;
+    color: var(--white);
+    line-height: 1.6;
+}
+
+.bioseg-text p {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    color: var(--white);
+    font-family: var(--font-family);
+}
+
+.bioseg-list {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: var(--white);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+    padding: .8rem 1.5rem;
+}
+
+.como-llegar-text p {
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.8;
+    color: var(--purple);
+    font-family: var(--font-family);
+}
+
+
+.footer {
+    background-color: var(--blue);
+    padding: 5rem;
 }
 
 @media(min-width:992px) {

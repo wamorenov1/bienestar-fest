@@ -13,18 +13,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;800&display=swap" rel="stylesheet">
     <!-- Fuentes -->
     <!-- Bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/chatbot-bienestar.js"></script>
     <link rel="stylesheet" href="./css/main.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="chatbot__button__bfest">
-            <div class="chatbot__button"></div>
-        </div>
+        <!-- <div class="chatbot__button__bfest">
+            <div class="chatbot__button">
+                <a href="#"><img src="./images/icon-open.png" alt=""></a>
+            </div>
+        </div> -->
         <section class="main-content">
             <section class="header__bfest">
                 <div class="row">
@@ -33,7 +38,10 @@
                             <img src="./images/logo_compensar.png" alt="Logo, Compensar">
 
                             <div class="cont-right">
-                                <h1 class="title-fest">Bi<span class="txt-orange">e</span>n<span class="txt-orange">e</span>star <span class="txt-gradient">Fest</span></h1> <img src="./images/sonrisa.svg" class="img-responsive sonrisa-fest" alt="Sonrisa Bienestar Fest">
+                                <h1 class="title-fest">Bi<span class="txt-orange">e</span>n<span
+                                        class="txt-orange">e</span>star <span class="txt-gradient">Fest</span></h1> <img
+                                    src="./images/sonrisa.svg" class="img-responsive sonrisa-fest"
+                                    alt="Sonrisa Bienestar Fest">
                             </div>
                         </nav>
                     </div>
@@ -66,7 +74,7 @@
                 </section>
             </div>
         </section>
-        <section class="cont-negocios">
+        <section class="cont-negocios py-3">
             <div class="container">
                 <div class="row carrusel-icons">
                     <div class="cont-neg">
@@ -115,108 +123,145 @@
                     </div>
                     <div class="cont-neg">
                         <img class="img-responsive" src="./images/icons-negocios/vivienda.png" alt="">
-                        <h2>vivienda</h2>
+                        <h2>Vivienda</h2>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="container-fluid cont-proms">
+        <section class="container-fluid cont-proms py-5">
             <h2 class="h2-fest text-center">Conoce una feria llena de beneficios</h2>
             <div class="proms container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt="" class="img-responsive card-img-top">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card">
+                        <img src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt=""
+                            class="img-responsive card-img-top">
                         <div class="card-body text-center">
                             <h3 class="title-card">Agencia de Empleo</h3>
-                            <p class="desc-card">Ofertas y capacitación de empleo gratuitos.</p><button type="button" class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Ver información
+                            <p class="desc-card">Ofertas y capacitación de empleo gratuitos.</p><button type="button"
+                                class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Ver promoción
                             </button>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt="" class="img-responsive card-img-top">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img
+                            src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt=""
+                            class="img-responsive card-img-top">
                         <div class="card-body text-center">
                             <h3 class="title-card">Alimentos</h3>
-                            <p class="desc-card">Lorem ipsum dolor sit amet.</p><button type="button" class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <p class="desc-card">Ofertas y capacitación de empleo gratuitos.</p><button type="button"
+                                class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Ver promoción
                             </button>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt="" class="img-responsive card-img-top">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img
+                            src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt=""
+                            class="img-responsive card-img-top">
                         <div class="card-body text-center">
                             <h3 class="title-card">Convenios y Alianzas</h3>
-                            <p class="desc-card">Lorem ipsum dolor sit amet.</p><button type="button" class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <p class="desc-card">Ofertas y capacitación de empleo gratuitos.</p><button type="button"
+                                class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Ver promoción
                             </button>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt="" class="img-responsive card-img-top">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img
+                            src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt=""
+                            class="img-responsive card-img-top">
                         <div class="card-body text-center">
                             <h3 class="title-card">Crédito</h3>
-                            <p class="desc-card">Lorem ipsum dolor sit amet.</p><button type="button" class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <p class="desc-card">Ofertas y capacitación de empleo gratuitos.</p>
+                            <button type="button" class="btn btn-pri-fest" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
                                 Ver promoción
                             </button>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt="" class="img-responsive card-img-top">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img
+                            src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt=""
+                            class="img-responsive card-img-top">
                         <div class="card-body text-center">
                             <h3 class="title-card">Eventos</h3>
-                            <p class="desc-card">Lorem ipsum dolor sit amet.</p><button type="button" class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <p class="desc-card">Ofertas y capacitación de empleo gratuitos.</p><button type="button"
+                                class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Ver promoción
                             </button>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt="" class="img-responsive card-img-top">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img
+                            src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt=""
+                            class="img-responsive card-img-top">
                         <div class="card-body text-center">
                             <h3 class="title-card">Proyectos Sociales</h3>
-                            <p class="desc-card">Lorem ipsum dolor sit amet.</p><button type="button" class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <p class="desc-card">Ofertas y capacitación de empleo gratuitos.</p><button type="button"
+                                class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Ver promoción
                             </button>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt="" class="img-responsive card-img-top">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img
+                            src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt=""
+                            class="img-responsive card-img-top">
                         <div class="card-body text-center">
                             <h3 class="title-card">RED</h3>
-                            <p class="desc-card">Descuento del 20% en productos seleccionados.</p><button type="button" class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <p class="desc-card">Ofertas y capacitación de empleo gratuitos.</p><button type="button"
+                                class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Ver promoción
                             </button>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt="" class="img-responsive card-img-top">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img
+                            src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt=""
+                            class="img-responsive card-img-top">
                         <div class="card-body text-center">
                             <h3 class="title-card">Salud y PC</h3>
-                            <p class="desc-card">Lorem ipsum dolor sit amet.</p><button type="button" class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <p class="desc-card">Ofertas y capacitación de empleo gratuitos.</p><button type="button"
+                                class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Ver promoción
                             </button>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt="" class="img-responsive card-img-top">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img
+                            src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt=""
+                            class="img-responsive card-img-top">
                         <div class="card-body text-center">
                             <h3 class="title-card">Subsidios</h3>
-                            <p class="desc-card">Lorem ipsum dolor sit amet.</p><button type="button" class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <p class="desc-card">Ofertas y capacitación de empleo gratuitos.</p><button type="button"
+                                class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Ver promoción
                             </button>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt="" class="img-responsive card-img-top">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img
+                            src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt=""
+                            class="img-responsive card-img-top">
                         <div class="card-body text-center">
                             <h3 class="title-card">Turismo</h3>
-                            <p class="desc-card">Descuentos hasta del 55% en alojamientos</p><button type="button" class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <p class="desc-card">Ofertas y capacitación de empleo gratuitos.</p><button type="button"
+                                class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Ver promoción
                             </button>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt="" class="img-responsive card-img-top">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img
+                            src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt=""
+                            class="img-responsive card-img-top">
                         <div class="card-body text-center">
                             <h3 class="title-card">Universidad Compensar</h3>
-                            <p class="desc-card">Lorem ipsum dolor sit amet.</p><button type="button" class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <p class="desc-card">Ofertas y capacitación de empleo gratuitos.</p><button type="button"
+                                class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Ver promoción
                             </button>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt="" class="img-responsive card-img-top">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card"><img
+                            src="./images/carrusel/AGENCIA_CARRUSEL_BIENESTAR_FEST.jpg" alt=""
+                            class="img-responsive card-img-top">
                         <div class="card-body text-center">
                             <h3 class="title-card">Vivienda</h3>
-                            <p class="desc-card">Lorem ipsum dolor sit amet.</p><button type="button" class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <p class="desc-card">Ofertas y capacitación de empleo gratuitos.</p><button type="button"
+                                class="btn btn-pri-fest" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Ver promoción
                             </button>
                         </div>
@@ -230,10 +275,67 @@
             <script type="text/javascript" src="https://form.jotform.com/jsform/221165246218047"></script>
         </section>-->
 
-
-
-
-        <footer>
+    </div>
+    <section class="py-5"></section>
+    <section class="py-5"></section>
+    <section class="bioseg container-fluid">
+        <div class="container py-5">
+            <div class="row row-bioseg">
+                <div class="col-md-6 d-flex justify-content-center"><img src="./images/img-bioseg.svg" alt=""
+                        class="img-responsive py-3"></div>
+                <div class="col-md-6 bioseg-text">
+                    <h2 class="title-bioseg">Sigue estas <br> <span class="bg-orange">recomendaciones</span></h2>
+                    <p>Participa del Bienestar Fest siguiendo estas recomendaciones</p>
+                    <ul class="bioseg-list">
+                        <li>Ten presente tu autocuidado y mantén una distancia prudente
+                        </li>
+                        <li>Lávate las manos con frecuencia
+                        </li>
+                        <li>No te toques la cara con las manos sucias
+                        </li>
+                        <li>Cúbrete boca y nariz al toser o estornudar</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5"></section>
+    <section class="py-5"></section>
+    <section class="map cont-proms">
+        <h2 class="text-center h2-fest">¿Cómo llegar al Bienestar Fest de Compensar?</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6220303604714!2d-74.1031212846744!3d4.66129694329448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ba297224193%3A0x20472986a25e2ee3!2sCompensar%20Avenida%2068!5e0!3m2!1ses!2sco!4v1651520613177!5m2!1ses!2sco"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <div class="como-llegar-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida lorem ut purus hendrerit,
+                            id condimentum augue dapibus. Curabitur ut iaculis dolor. </p>
+    
+                        <p>    Cras pellentesque mi sit amet finibus dignissim. Nullam laoreet dolor faucibus elementum
+                            elementum. Suspendisse iaculis turpis ex, id pharetra ipsum facilisis id. Pellentesque suscipit
+                            orci in arcu porttitor ultrices.
+                        </p>
+                    </div>
+                    <div class="como-llegar-iconos">
+                        <div class="maps-icon">
+                            <a href="https://goo.gl/maps/gija7a29wmpxee1EA" class="maps" target="_blank">Llega con 
+                                Google Maps</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5"></section>
+    <section class="py-5"></section>
+    <footer class="footer">
+        <div class="container">
             <div class="col-md-3">
                 <ul>
                     <li>Columna 1</li>
@@ -254,32 +356,10 @@
                     <li>Columna 4</li>
                 </ul>
             </div>
-        </footer>
-    </div>
-    <section class="bioseg container-fluid">
-        <div class="container py-5">
-            <div class="row row-bioseg">
-                <div class="col-md-6"><img src="./images/img-bioseg.svg" alt="" class="img-responsive py-3"></div>
-                <div class="col-md-6">
-                    <h2 class="title-bioseg">Sigue estas recomendaciones</h2>
-                    <p>Participa del Bienestar Fest siguiendo estas recomendaciones:</p>
-                    <ul>
-                        <li>Ten presente tu autocuidado y mantén una distancia prudente
-                        </li>
-                        <li>Lávate las manos con frecuencia
-                        </li>
-                        <li>No te toques la cara con las manos sucias
-                        </li>
-                        <li>Cúbrete boca y nariz al toser o estornudar</li>
-                    </ul>
-                </div>
-            </div>
         </div>
-    </section>
-    <section class="map cont-proms">
-        <h2 class="text-center h2-fest">¿Cómo llegar al Bienestar Fest de Compensar? </h2>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
