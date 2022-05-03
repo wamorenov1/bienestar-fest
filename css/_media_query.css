@@ -1,17 +1,17 @@
 @media(max-width:570px) {
     .logo__bfest img {
-        max-width: 100%;
+        max-width: 90%;
     }
     #countdown {
         display: flex;
-        gap: 1rem;
-        width: 100%;
+        gap: 2rem;
+        width: 90%;
     }
     .countdown__label {
-        font-size: 5vh;
+        font-size: 5rem;
     }
     .countdown__label p {
-        font-size: 2vh;
+        font-size: 2.2rem;
     }
 }
 
