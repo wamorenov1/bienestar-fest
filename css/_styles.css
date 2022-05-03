@@ -136,7 +136,7 @@ body {
 
 .cont-proms {
     background-image: url(../images/Detalle4.png);
-    background-size: cover;
+    background-size: contain;
     padding-bottom: 15rem;
     background-repeat: no-repeat;
 }
@@ -287,6 +287,10 @@ body {
     margin-bottom: 2rem;
 }
 
+.como-llegar-text {
+    padding: 2.5rem;
+}
+
 .como-llegar-text p {
     font-size: 1.6rem;
     text-align: center;
@@ -350,6 +354,32 @@ body {
 
 .footer-list li {
     padding: .5rem;
+}
+
+.modal-content {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.modal-title {
+    font-family: var(--font-family);
+    font-size: 2rem;
+    color: var(--purple);
+}
+
+.modal-header button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: var(--white);
+    z-index: 100;
+}
+
+
+
+.modal-body p {
+    font-family: var(--font-family);
+    font-size: 1.6rem;
 }
 
 @media(min-width:992px) {
