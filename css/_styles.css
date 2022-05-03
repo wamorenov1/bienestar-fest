@@ -294,7 +294,9 @@ body {
     font-weight: var(--bold);
     
 }
-
+.modals .fade {
+    opacity: 1;
+}
 .como-llegar-iconos a {
     text-decoration: none;
 }
@@ -344,3 +346,8 @@ body {
         width: 40px;
     }
 }
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+}}
