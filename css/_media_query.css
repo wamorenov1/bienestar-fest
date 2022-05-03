@@ -13,6 +13,20 @@
     .countdown__label p {
         font-size: 2.2rem;
     }
+    .carrusel-icons {
+        padding: 3rem 0rem;
+    }
+    .bioseg {
+        background-image: none;
+    }
+    .title-bioseg {
+        text-align: left;
+    }
+    .cont-proms {
+        background-image: none;
+        padding: 1.5rem;
+    }
+    
 }
 
 /* body {
