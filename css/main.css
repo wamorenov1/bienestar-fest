@@ -1,4 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;500;700;800&display=swap');
 @import "./_variables.css";
 @import "./_styles.css";
-@import url("./_media_query.css");
+@import "./_media_query.css";

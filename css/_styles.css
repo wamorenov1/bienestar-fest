@@ -111,10 +111,12 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+    padding: 1.5rem;
 }
 
 .logo__bfest img {
     max-width: 450px;
+    width: 100%;
 }
 
 .body__copy__bfest {
@@ -153,7 +155,9 @@ body {
 
 #countdown {
     display: flex;
+    justify-content: center;
     gap: 2rem;
+    width: 100%;
 }
 
 .countdown__label {
@@ -258,6 +262,14 @@ body {
     padding: .8rem 1.5rem;
 }
 
+.como-llegar-fest {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 0rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
 .como-llegar-text p {
     font-size: 1.6rem;
     text-align: center;
@@ -267,9 +279,57 @@ body {
 }
 
 
+
+.maps-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maps-icon p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: var(--purple);
+    font-weight: var(--bold);
+    
+}
+
+.como-llegar-iconos a {
+    text-decoration: none;
+}
+
+.cuando-item {
+    display: flex;
+    align-items: center;
+    padding: 0rem;
+}
+
+.cuando-item img {
+    width: 40px;
+}
+
+.cuando-item p {
+    margin: 0;
+    margin-left: .5rem;
+    color: var(--purple);
+    font-family: var(--font-family);
+    font-size: 2rem;
+}
+
 .footer {
     background-color: var(--blue);
     padding: 5rem;
+}
+
+.footer-list {
+    color: var(--white);
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.footer-list li {
+    padding: .5rem;
 }
 
 @media(min-width:992px) {
