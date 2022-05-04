@@ -19,7 +19,7 @@
 window.ySocialChatInit = function () {
     YSocialChat.init({
             button: {
-                html: '<img class="icono-chat" id="btn" src="/Paginas/bienestar-fest/img/icon-open.png" style="max-height: 100% !important; max-width: 100% !important;" />',
+                html: '<img class="icono-chat" alt="Logo, Chatbot bienestar fest" id="btn" src="./images/icon-open.png" style="max-height: 100% !important; max-width: 100% !important;" />',
                 styles: {
                     'background': 'transparent !important',
                     'border': 'none',
@@ -74,9 +74,9 @@ window.ySocialChatInit = function () {
     function cambiarIcono() {
         contar++;
         if (contar == 1) {
-            $(".icono-chat").attr('src', '/Paginas/bienestar-fest/img/icon-close.png');
+            $(".icono-chat").attr('src', '../images/icon-close.png');
         } else {
-            $(".icono-chat").attr('src', '/Paginas/bienestar-fest/img/icon-open.png');
+            $(".icono-chat").attr('src', '../images/icon-open.png');
             contar = 0;
         }
 

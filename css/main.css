@@ -1,4 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;500;700;800&display=swap');
-@import "/Style%20Library/webparts/bienestar-fest/css/_variables.css";
-@import "/Style%20Library/webparts/bienestar-fest/css/_styles.css";
-@import "/Style%20Library/webparts/bienestar-fest/css/_media_query.css";
+@import "./_variables.css";
+@import "./_styles.css";
+@import "./_media_query.css";

@@ -5,7 +5,7 @@ body {
 }
 
 .main-content{
-    background-image: url(/Paginas/bienestar-fest/img/Detalle1.png);
+    background-image: url(../images/Detalle1.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -33,7 +33,7 @@ body {
 
 .bioseg {
     background-color: var(--purple);
-    background-image: url(/Paginas/bienestar-fest/img/Detalle3.png);
+    background-image: url(../images/Detalle3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -142,10 +142,20 @@ body {
 }
 
 .cont-proms {
-    background-image: url(/Paginas/bienestar-fest/img/Detalle4.png);
+    background-image: url(../images/Detalle4.png);
     background-size: contain;
     padding-bottom: 15rem;
     background-repeat: no-repeat;
+}
+
+
+.h2-title {
+    font-family: var(--font-family);
+    font-weight: var(--bold);
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--purple);
+    margin-bottom: 6rem;
 }
 
 .container_seguros_com .h2-title {
@@ -215,7 +225,7 @@ body {
 }
 
 .promotion__box {
-    background-image: url(/Paginas/bienestar-fest/img/Detalle2.png);
+    background-image: url(../images/Detalle2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -233,9 +243,10 @@ body {
     padding: 3rem 10rem;
 }
 
-.cont-neg h2 {
+.cont-name {
     color: var(--purple);
     font-size: 1.8rem;
+    font-weight: var(--black);
 }
 
 .cont-neg img {
@@ -329,7 +340,23 @@ body {
 .modals .fade {
     opacity: 1;
 }
-.modals .modal-content{
+
+.modal-content {
+    width: auto;
+}
+
+.modal-body p{
+    line-height: 1.8;
+    color: var(--gray700);
+}
+
+.modal-list {
+    font-size: 1.6rem;
+    color: var(--gray700);
+}
+
+
+/* .modals .modal-content{
     background-color: var(--purple);
     border-radius: 1rem;
 }
@@ -347,7 +374,7 @@ body {
     color: #fff;
     background-color: #f50076;
     border-radius: 30px;
-}
+} */
 .como-llegar-iconos a {
     text-decoration: none;
 }
