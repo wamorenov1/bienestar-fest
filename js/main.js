@@ -47,13 +47,15 @@ var x = setInterval(function () {
 
 $('.carrusel-icons').slick({
   dots: false,
-  infinite: false,
+  infinite: true,
   speed: 300,
-  arrows: false,
+  arrows: true,
   slidesToShow: 8,
   autoplay: true,
   infinite: true,
-  slidesToScroll: 1,
+  slidesToScroll: 4,
+  prevArrow: "<i class='slick-prev' title='Ir izquierda' aria-hidden='true'></i>",
+  nextArrow: "<i class='slick-next' title='Ir derecha' aria-hidden='true'></i>",
   responsive: [{
       breakpoint: 1024,
       settings: {
@@ -66,16 +68,51 @@ $('.carrusel-icons').slick({
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToShow: 3,
+        slidesToScroll: 3
       }
     },
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToShow: 3,
+        slidesToScroll: 3
       }
     }
   ]
 });
+
+$('.pause').on('click', function() {
+  $('.carrusel-icons')
+      .slick('slickPause')
+});
+
+$('.play').on('click', function() {
+  $('.carrusel-icons')
+      .slick('slickPlay')});
+
+/* remover master */
+$(function(){
+  $('#auxMenu, .compensarPie, .inner_popUp__header').remove();
+
+  let cleanSpace1 = $("#dest-1 p").html().replace(/&#160;/gi,'').replace(/&nbsp;/gi,'');
+  $("#dest-1 p").text(cleanSpace1);
+
+  let cleanSpace2 = $("#dest-2 p").html().replace(/&nbsp;/gi,'').replace(/&nbsp;/gi,'');
+  $("#dest-2 p").text(cleanSpace2);    
+  
+  let cleanSpace3 = $("#dest-3 p").html().replace(/&nbsp;/gi,'').replace(/&nbsp;/gi,'');
+  $("#dest-3 p").text(cleanSpace3);  
+  
+  let cleanSpace4 = $("#dest-4 p").html().replace(/&nbsp;/gi,'').replace(/&nbsp;/gi,'');
+  $("#dest-4 p").text(cleanSpace4);  
+});
+function openNav() {
+  document.getElementById("myNav").style.left = "0%";
+  $(".btn-boton-vip").hide();
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.left = "100%";
+  $(".btn-boton-vip").show();
+}
