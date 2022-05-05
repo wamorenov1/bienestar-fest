@@ -34,3 +34,20 @@
         gap: 2rem;
     }
 }
+
+@media(max-width:1199px) {
+    .nav__bfest {
+        flex-wrap: wrap;
+        border-radius: 30px;
+    }
+    .nav-menu {
+    flex-direction: column;
+    width: 100%;
+    }
+}
+
+@media(min-width:1199px){
+    .collapse:not(.show) {
+        display: block;
+    }
+}

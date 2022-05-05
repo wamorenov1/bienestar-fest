@@ -31,15 +31,24 @@
         <div class="container">
             <section class="header__bfest">
                 <div class="row">
-                    <div class="col-sm-12 col-md-10 col-lg-8 col-sm-12 offset-lg-2">
-                        <nav class="nav__bfest">
-                            <img src="./images/logo_compensar.png" alt="Logo, Compensar">
-                            <ul class="nav-menu">
-                                <li>Oferta del festival</li>
-                                <li>Programación</li>
-                                <li>Eventos especiales</li>
-                                <li>Recomendaciones</li>
-                            </ul>
+                    <div class="col-sm-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2">
+                        <nav class="nav__bfest d-xl-flex align-items-center justify-content-xl-between">
+                            <div class="nav__logos">
+                                <div class="logo__compensar">
+                                    <img src="./images/logo_compensar.png" alt="Logo, Compensar">
+                                </div>
+                                <div class="burguer__menu d-xl-none">
+                                    <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><img src="./images/burguer-nav.svg" width="25" alt="" srcset=""></a>
+                                </div>
+                            </div>
+                            <div class="nav__items pt-5 pt-xl-0 collapse" id="collapseExample">
+                                <ul class="nav-menu">
+                                    <li>Oferta del festival</li>
+                                    <li>Programación</li>
+                                    <li>Eventos especiales</li>
+                                    <li>Recomendaciones</li>
+                                </ul> 
+                            </div>
                         </nav>
                     </div>
                 </div>
@@ -267,7 +276,7 @@
                                 para beneficiarios</li>
                             <li>Difusión de ofertas de empleo.</li>
                         </ul>
-                            
+
                         <p><strong>Servicios gratuitos.</strong></p>
                     </div>
                     <div class="modal-footer">
@@ -300,8 +309,8 @@
 
                         <ul class="modal-list">
                             <li>
-                            <strong>Combo de feria:</strong>
-                            <p>Pastel Hawaiano + Café con leche mediano</p>
+                                <strong>Combo de feria:</strong>
+                                <p>Pastel Hawaiano + Café con leche mediano</p>
                             </li>
                             <li>
                                 <strong>Oferta especial:</strong>
@@ -312,7 +321,7 @@
                                 <p>Mantecada + café con leche mediano</p>
                                 <p>Croissant jamón y queso + café con leche mediano.</p>
                             </li>
-                        </ul>   
+                        </ul>
                     </div>
                     <div class="modal-footer">
                         <a href="https://form.jotform.com/221165246218047" target="_blank"
@@ -685,8 +694,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <iframe
-                        title="Vista, Mapa ubicación Compensar Av.68"
+                    <iframe title="Vista, Mapa ubicación Compensar Av.68"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6220303604714!2d-74.1031212846744!3d4.66129694329448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ba297224193%3A0x20472986a25e2ee3!2sCompensar%20Avenida%2068!5e0!3m2!1ses!2sco!4v1651520613177!5m2!1ses!2sco"
                         width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -763,4 +771,5 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
+
 </html>
