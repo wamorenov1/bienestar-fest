@@ -14,17 +14,7 @@ body {
     padding-right: 0px;
     padding-left: 0px;
 }
-.btn-pri-fest {
-    color: white;
-    background-color: #e20e74;
-    font-weight: 800;
-    width: 100%;
-    border-radius: 0px 0px 10px 10px;
-    font-size: 1.5rem;
-    padding: 1em 0em;
-    position: relative;
-    bottom: 0;
-}
+
 
 .btn-pri-fest:hover {
     background-color: var(--blue);
@@ -44,6 +34,17 @@ body {
     border: 0px;
     padding: 2rem;
 }
+
+.btn-pri-fest {
+    color: white;
+    background-color: #e20e74;
+    font-weight: 800;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 1.5rem;
+    padding: 1em 0em;
+}
+
 
 .proms .card .card-body {
     background-color: var(--purple);
