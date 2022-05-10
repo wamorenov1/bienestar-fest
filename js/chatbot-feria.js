@@ -19,7 +19,7 @@
 window.ySocialChatInit = function () {
     YSocialChat.init({
             button: {
-                html: '<img class="icono-chat" id="btn" src="https://corporativo.compensar.com/PublishingImages/Chat/chatbot-icon-BF-close.png" style="max-height: 100% !important; max-width: 100% !important;" />',
+                html: '<img class="icono-chat" src="https://corporativo.compensar.com/PublishingImages/Chat/chatbot-icon-BF-close.png" style="max-height: 100% !important; max-width: 100% !important;" />',
                 styles: {
                     'background': 'transparent !important',
                     'border': 'none',
